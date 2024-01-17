@@ -1,2 +1,3 @@
 # Contiguous.github.io
-Test website for analytics.
+
+Test website for google analytics data.
