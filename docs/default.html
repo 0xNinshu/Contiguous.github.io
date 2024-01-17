@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en-US">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{{ page.title }}</title>
+        <link rel="stylesheet" href="/css/style.css">
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-K7LKEGC9ZB" defer></script>
+        <script defer>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+
+            gtag('config', 'G-K7LKEGC9ZB');
+        </script>
+        <!-- Google Analytics -->
+    </head>
+
+    <body>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/blog/">Blog</a>
+        </nav>
+        <h1>{{ page.title }}</h1>
+        <section> {{ content }} </section>
+        <footer> &copy; to me </footer>
+    </body>
+
+</html>
