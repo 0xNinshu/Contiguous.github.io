@@ -51,7 +51,7 @@ gem "kramdown", "~> 2.3.2"
 gem "liquid", "~> 4.0.4"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima", "~> 2.5.1"
-gem "nokogiri", "~> 1.15.4"
+gem "nokogiri", "~> 1.15.6"
 gem "rouge", "~> 3.26.0"
 gem "safe_yaml", "~> 1.0.5"
 gem "sass", "~> 3.7.4"
